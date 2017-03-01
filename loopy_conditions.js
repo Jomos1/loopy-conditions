@@ -6,7 +6,16 @@
  * @param  { Number } b
  * @return { Number }
  */
+function greaterNumber(a, b){
+	if (a > b) {
+		return	a;
+	}
+	else{
+		return b;
+	}
+}
 
+greaterNumber(7, 69)
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,6 +26,11 @@
  * @param  { Number } n
  * @return { String }
  */
+function stringOfNumbers(n){
+	var stringOfNumbers = [0,1,2,3,4,n];
+	console.log(stringOfNumbers);
+}
+
 
 
 /**
