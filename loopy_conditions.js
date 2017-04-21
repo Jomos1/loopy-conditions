@@ -26,8 +26,8 @@ greaterNumber(7, 69)
  * @param  { Number } n
  * @return { String }
  */
+var string = ;
 function stringOfNumbers(n){
-	var stringOfNumbers = [0,1,2,3,4,n];
 	console.log(stringOfNumbers);
 }
 
